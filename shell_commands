@@ -1,0 +1,9 @@
+## Login to other mashine without password
+Local mashine:
+cd ~/.ssh
+ssh-keygen 
+  (will ask for file name - leave it as it is)
+  (will ask for passprase - LEAVE IT EMPTY)
+2 files will be produced: id_rsa id_rsa.pub
+ssh-copy-id -i id-rsa.pub k....@blizzard.de 
+
