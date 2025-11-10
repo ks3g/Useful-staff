@@ -1,0 +1,62 @@
+# Environment
+.env
+.venv
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data and Logs
+data/vector_store/*
+data/cache/*
+logs/*
+*.log
+
+# Keep directories but not contents
+!data/vector_store/.gitkeep
+!data/cache/.gitkeep
+!logs/.gitkeep
+
+# Models (if downloaded locally)
+models/
+*.bin
+*.pt
+*.pth
+
+# OS
+.DS_Store
+Thumbs.db

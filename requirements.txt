@@ -1,0 +1,49 @@
+# Core RAG Dependencies
+langchain==0.1.0
+langchain-community==0.0.13
+langchain-openai==0.0.2
+
+# PDF Processing
+pypdf2==3.0.1
+pdfplumber==0.10.3
+pymupdf==1.23.8
+
+# Vector Stores
+faiss-cpu==1.7.4
+chromadb==0.4.22
+
+# Embeddings
+sentence-transformers==2.2.2
+openai==1.7.2
+
+# LLM Providers
+anthropic==0.8.1
+
+# Chunking & Text Processing
+tiktoken==0.5.2
+nltk==3.8.1
+spacy==3.7.2
+
+# Evaluation Metrics
+rouge-score==0.1.2
+bert-score==0.3.13
+ragas==0.1.1
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+numpy==1.24.3
+pandas==2.0.3
+tqdm==4.66.1
+
+# Logging & Monitoring
+loguru==0.7.2
+
+# Configuration
+pyyaml==6.0.1
